@@ -14,7 +14,7 @@ body {
     font-family: 'IBM Plex Sans Arabic', sans-serif;
 }
 
-/*icone da página*/
+/************** icone da página **************/
 .icone {
     padding: 8px;
     background-color:#E2D686;
@@ -23,7 +23,11 @@ body {
 .iconeImg {
     width: 50px;
     padding-left: 13px;
+    height: auto;
+    object-fit: cover;
+    object-position: bottom;
 }
+
 
 /*primeria imagem - apresentação*/
 .imagemDeInicio {
@@ -34,9 +38,13 @@ body {
     padding-bottom: 0.9em;;
 }
 
+
 /*area de oferta cliente*/
 .paraCliente {
     display: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
     margin: 8px;
     border: #E2D686 1px solid;
     border-radius: 9px;
@@ -55,7 +63,7 @@ body {
 }
 
 .arvoreIcon, .hotelIcon, .lazerIcon, .escritorioIcon {
-    width: 70px;
+    width: 60px;
 }
 
 .significadoCliente {
@@ -66,49 +74,62 @@ body {
     margin-bottom: 10px;
 }
 
-/*inicio primeiro bloco de grid*/
 
+/*inicio primeiro bloco de grid*/
 .gridUM {
     display: grid;
-    grid-template-columns: 510px 400px;
-    grid-template-rows: 320px 320px;
+    grid-template-columns: 556px 444px;
+    grid-template-rows: 350px 350px;
     justify-content: center;
     align-content: center;
     justify-items: center;
     align-items: center;
-    margin-bottom: 15px;
-    margin-top: 35px;
-}
-
-.imgGrid1 {
-    box-shadow: 3px 4px var(--corChaVerde);
+    margin: 35px 15px 5px 5px;
+    padding: 20px;
 }
 
 /*inicio segundo bloco de grid*/
 .gridDOIS {
-    display: grid;
-    grid-template-columns: 506px 404px;
-    grid-template-rows: 305px 305px;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-content: center;
     justify-items: center;
     align-items: center;
-    margin-bottom: 15px;
-    margin-top: 45px;
+}
+
+.conjunto1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    align-items: center; 
+    border: var(--corShandow) solid 1px;
+    padding: 10px;
+    border-radius: 12px;
+}
+
+.palavrasGrid2, .palavrasGrid2-1 {
+    text-align: center;
+}
+
+.conjunto2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    align-items: center; 
+    border: var(--corAmarelo) solid 1px;
+    padding: 20px;
+    margin-top: 10px;
+    border-radius: 12px;
 }
 
 .imgGrid2 {
-    box-shadow: -3px -4px var(--corFlax);
-}
-
-.palavrasGrid2 {
-    border: var(--corShandow) 1px solid;
-    padding: 25px;
-}
-
-.palavrasGrid2-1 {
-    border: var(--corChaVerde) 1px solid;
-    padding: 25px;
+    width: 450px;
+    border: var(--corOliva) solid 2px;
 }
 
 /*inicio casa&minimalismo*/
@@ -127,8 +148,8 @@ body {
 
 .gridTRES {
     display: grid;
-    grid-template-columns: 506px 404px;
-    grid-template-rows: 305px 305px;
+    grid-template-columns: 556px 444px;
+    grid-template-rows: 350px 350px;
     justify-content: center;
     align-content: center;
     justify-items: center;
@@ -189,7 +210,6 @@ body {
     box-shadow: 6px 4px rgb(71, 70, 70);
 }
 
-
 /* footer */
 .contatos {
     display: flex;
@@ -239,95 +259,117 @@ body {
     align-content: center;
 }
 
-
-@media screen and (max-width: 700px) {
+@media all and (max-width: 400px) {
+    /***** icone da página ******/
     .icone {
+        width: 100%;
         padding: 5px;
-    }
-
-    .iconeImg {
-        width: 40px;
-        padding-left: 13px;
-    }
-
-    .arvoreIcon, .hotelIcon, .lazerIcon, .escritorioIcon {
-        width: 45px;
-    }
-
-    /*grid1*/
-    .imgGrid1 {
-        width: 200px;
-    }
-
-    .gridUM {
-        display: grid;
-        grid-template-columns: 210px 200px;
-        grid-template-rows: 140px 140px;
-        justify-content: center;
-        align-content: center;
-        justify-items: center;
-        align-items: center;
-        margin-bottom: 15px;
-    }
-
-    /*grid2*/
-    .imgGrid2 {
-        width: 200px;
-    }
-
-    .gridDOIS {
-        display: grid;
-        grid-template-columns: 210px 200px;
-        grid-template-rows: 140px 140px;
-        justify-content: center;
-        align-content: center;
-        justify-items: center;
-        align-items: center;
-        margin-bottom: 15px;
-        margin-top: 15px;
-    }
-
-    .palavrasGrid2 {
-        border: var(--corShandow) 1px solid;
-        border-left: white;
-        margin-left: -5px;
-        padding: 3px 10px 3px 10px;
-        font-size: 10px;
+        background-color: var(--corFlax);
     }
     
-    .palavrasGrid2-1 {
-        border: var(--corChaVerde) 1px solid;
-        padding: 3px 1px 3px 1px;
-        text-align: start;
-        font-size: 10px;
+    .iconeImg {
+        width: 35px;
+        height: auto;
+        object-fit: cover;
+        object-position: bottom;
+    }
+    
+
+    /*ofrtas para cliente*/
+    .paraCliente {
+        margin: 5px;
     }
 
-    /*grid 3*/
-    .imgGrid3 {
-        width: 200px;
+    .arvoreIcon, .hotelIcon, .lazerIcon, 
+    .escritorioIcon {
+        width: 38px;
     }
+    
 
-    .gridTRES {
-        display: grid;
-        grid-template-columns: 210px 200px;
-        grid-template-rows: 140px 140px;
+    /*inicio primeiro bloco de grid*/
+    .gridUM {
+        display: flex;
+        flex-direction: column;
         justify-content: center;
         align-content: center;
         justify-items: center;
         align-items: center;
-        margin-bottom: 15px;
-        margin-top: 15px;
+    }
+
+    .imgGrid1 {
+        width: 295px;
+        border: #FFDF64 solid 2px;
+    }
+
+    /*inicio segundo bloco de grid*/
+    .gridDOIS {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        justify-items: center;
+        align-items: center;
+    }
+
+    .conjunto1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        justify-items: center;
+        align-items: center; 
+        border: var(--corShandow) solid 2px;
+        padding-top: 10px;
+        border-radius: 12px;
+    }
+
+    .palavrasGrid2, .palavrasGrid2-1 {
+        text-align: center;
+    }
+
+    .conjunto2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        justify-items: center;
+        align-items: center; 
+        border: var(--corAmarelo) solid 2px;
+        padding-bottom: 10px;
+        margin-top: 10px;
+        border-radius: 12px;
+    }
+
+    .imgGrid2 {
+        width: 295px;
+        border: var(--corOliva) solid 2px;
+    }
+
+    /*inicio grid3*/
+
+    .gridTRES {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        justify-items: center;
+        align-items: center;
     }
 
     .palavrasGrid3 {
-        border: var(--corShandow) 1px solid;
-        padding: 3px;
-        font-size: 10px;
+        border: var(--corAmarelo) 1.5px solid;
+        padding: 25px;
+    }
+
+    .imgGrid3 {
+        width: 295px;
+        border: var(--corShandow) solid 2px;
+        margin: 10px;
     }
 
     /*carrosel imagens*/
     #id {
-        width: 300px;
+        width: 330px;
     }
 
     /*outros*/
@@ -339,12 +381,12 @@ body {
         justify-items: center;
         align-items: center;
         margin-bottom: 15px;
-        margin-top: 45px;
+        margin-top: 35px;
     }
 
     .imgOutros {
         width: 240px;
-        margin-bottom: 5px;
+        margin-bottom: 10px;
     }
 
     /*contatos*/
@@ -358,6 +400,8 @@ body {
         font-size: 15px;
     }
 
-   
+    .rodape {
+        padding-bottom: 5px;
+        font-size: 0.7em;
+    }
 }
-
