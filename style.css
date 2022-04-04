@@ -259,7 +259,8 @@ body {
     align-content: center;
 }
 
-@media all and (max-width: 400px) {
+
+@media all and (max-width: 320px) {
     /***** icone da página ******/
     .icone {
         width: 97%;
@@ -273,7 +274,6 @@ body {
         object-fit: cover;
         object-position: bottom;
     }
-    
 
     /*ofrtas para cliente*/
     .paraCliente {
