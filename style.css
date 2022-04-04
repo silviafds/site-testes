@@ -262,7 +262,7 @@ body {
 @media all and (max-width: 400px) {
     /***** icone da página ******/
     .icone {
-        width: 100%;
+        width: 97%;
         padding: 5px;
         background-color: var(--corFlax);
     }
@@ -334,14 +334,18 @@ body {
         align-content: center;
         justify-items: center;
         align-items: center; 
-        border: var(--corAmarelo) solid 2px;
-        padding-bottom: 10px;
-        margin-top: 10px;
+        border: var(--corShandow) solid 2px;
+        padding-top: 10px;
         border-radius: 12px;
     }
 
     .imgGrid2 {
-        width: 295px;
+        width: 265px;
+        border: var(--corOliva) solid 2px;
+    }
+
+    .imgGrid2-1 {
+        width: 255px;
         border: var(--corOliva) solid 2px;
     }
 
@@ -358,7 +362,8 @@ body {
 
     .palavrasGrid3 {
         border: var(--corAmarelo) 1.5px solid;
-        padding: 25px;
+        border-radius: 65px;
+        padding: 18px;
     }
 
     .imgGrid3 {
@@ -369,7 +374,7 @@ body {
 
     /*carrosel imagens*/
     #id {
-        width: 330px;
+        width: 315px;
     }
 
     /*outros*/
