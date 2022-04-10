@@ -414,7 +414,7 @@ body {
 @media screen and (min-width: 350px) and (max-width: 370px) {
     /*icone da pagina*/
     .icone {
-        width: 170%;
+        width: 151.5%;
         padding: 8px;
     }
 
@@ -427,7 +427,7 @@ body {
 
     /*primeria imagem - apresentação*/
     .imagemDeInicio {
-        width: 174.5%;
+        width: 155.6%;
         height: auto;
         object-fit: cover;
         object-position: bottom;
@@ -436,12 +436,12 @@ body {
     
     /*area de oferta cliente*/
     .paraCliente {
-        width: 170%;
+        width: 150%;
     }
 
     /*inicio primeiro bloco de grid*/
     .gridUM {
-        width: 155%;
+        width: 140%;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -457,7 +457,7 @@ body {
 
     /*inicio segundo bloco de grid*/
     .gridDOIS {
-        width: 170%;
+        width: 140%;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -476,6 +476,7 @@ body {
         border: var(--corShandow) solid 2px;
         padding-top: 10px;
         border-radius: 12px;
+        margin-left: 30px;
     }
 
     .palavrasGrid2, .palavrasGrid2-1 {
@@ -492,10 +493,11 @@ body {
         border: var(--corShandow) solid 2px;
         padding-top: 10px;
         border-radius: 12px;
+        margin-left: 30px;
     }
 
     .imgGrid2 {
-        width: 285px;
+        width: 255px;
         border: var(--corOliva) solid 2px;
     }
 
@@ -505,19 +507,21 @@ body {
     }
 
     .homeEminimalist {
-        width: 170%;
+        width: 150%;
+        margin-left: 10px;
     }
 
     /*inicio grid3*/
 
     .gridTRES {
-        width: 170%;
+        width: 140%;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-content: center;
         justify-items: center;
         align-items: center;
+        margin-left: 30px;
     }
 
     .palavrasGrid3 {
@@ -535,7 +539,7 @@ body {
     /*carrosel img*/
 
     .CarroselImagensMinimalista {
-        width: 170%;
+        width: 150%;
     }
 
     #id {
@@ -546,7 +550,8 @@ body {
     /*outros*/
 
     .apresentacaoProdutos {
-        width: 170%;
+        width: 140%;
+        margin-left: 30px;
     }
 
     .outros {
@@ -568,7 +573,7 @@ body {
     /*contatos*/
 
     .contatos, .rodape, .RedeSocial {
-        width: 170%;
+        width: 155%;
     }
 
     .contatos > h2 {
