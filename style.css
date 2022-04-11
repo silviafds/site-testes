@@ -74,7 +74,6 @@ body {
     margin-bottom: 10px;
 }
 
-
 /*inicio primeiro bloco de grid*/
 .gridUM {
     display: grid;
@@ -878,5 +877,154 @@ body {
     .contatos, .rodape, .RedeSocial {
         width: 140.5%;
     }
+
+}
+
+@media screen and (min-width: 500px) and (max-width: 550px) {
+    /*icone da pagina*/
+    .icone {
+        width: 127%;
+        padding: 8px;
+    }
+
+    /*primeria imagem - apresentação*/
+    .imagemDeInicio {
+        width: 130%;
+        height: auto;
+        object-fit: cover;
+        object-position: bottom;
+        padding-bottom: 0.9em;;
+    }
+
+    /*area de oferta cliente*/
+    .paraCliente {
+        width: 120%;
+        margin-left: 25px;
+    }
+
+    /*inicio primeiro bloco de grid*/
+    .gridUM {
+        display: grid;
+        grid-template-columns: 476px 160px;
+        grid-template-rows: 215px 215px;
+        justify-content: center;
+        align-content: center;
+        justify-items: center;
+        align-items: center;
+        margin: 35px 15px 5px 5px;
+        padding: 20px;
+    }
+
+    .imgGrid1 {
+        width: 300px;
+        border: #FFDF64 solid 2px;
+    }
+
+    /*inicio segundo bloco de grid*/
+    .gridDOIS {
+        width: 125%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        justify-items: center;
+        align-items: center;
+        margin-top: 30px;
+    }
+
+    .conjunto1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        justify-items: center;
+        align-items: center; 
+        border: var(--corShandow) solid 2px;
+        padding-top: 10px;
+        border-radius: 12px;
+        margin-left: 30px;
+    }
+
+    .conjunto2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        justify-items: center;
+        align-items: center; 
+        border: var(--corShandow) solid 2px;
+        padding-top: 10px;
+        border-radius: 12px;
+        margin-left: 10px;
+        margin-left: 10px;
+    }
+
+    /*titulo minimalismo*/
+    .homeEminimalist {
+        width: 125%;
+        margin-left: 10px;
+    }
+
+    /*inicio grid3*/
+
+    .gridTRES {
+        width: 120%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        justify-items: center;
+        align-items: center;
+        margin-left: 30px;
+    }
+
+    .imgGrid3 {
+        width: 380px;
+        border: var(--corShandow) solid 2px;
+        margin: 10px;
+    }
+
+
+    /*carrosel img*/
+
+    .CarroselImagensMinimalista {
+        width: 122%;
+        margin-left: 8px;
+    }
+
+    #id {
+        width: 390px;
+        height: 250px;
+    }
+
+    /*outros*/
+
+    .apresentacaoProdutos {
+        width: 110%;
+        margin-left: 50px;
+    }
+
+    .outros {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        justify-items: center;
+        align-items: center;
+        margin-bottom: 15px;
+        margin-top: 35px;
+    }
+
+    .imgOutros {
+        width: 300px;
+        margin-bottom: 10px;
+    }
+
+    /*contatos*/
+
+    .contatos, .rodape, .RedeSocial {
+        width: 130%;
+    }
+
 
 }
