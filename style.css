@@ -1417,8 +1417,8 @@ body {
         border: #FFDF64 solid 2px;
     }
 
-     /*inicio segundo bloco de grid*/
-     .gridDOIS {
+    /*inicio segundo bloco de grid*/
+    .gridDOIS {
         width: 100%;
         display: flex;
         flex-direction: column;
@@ -1478,7 +1478,7 @@ body {
     }
 
     /*titulo minimalismo*/
-   .homeEminimalist {
+    .homeEminimalist {
         width: 100%;
         margin-left: 40px;
     }
@@ -1512,6 +1512,184 @@ body {
 
     .palavrasGrid3 > p {
         font-size: 20px;
+    }
+
+    /*carrosel img*/
+
+    .CarroselImagensMinimalista {
+        width: 105%;
+        margin-left: 16px;
+    }
+
+    #id {
+        width: 500px;
+    }
+
+    /*outros*/
+
+    .apresentacaoProdutos {
+        width: 90%;
+        margin-left: 80px;
+    }
+
+    .outros {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        justify-items: center;
+        align-items: center;
+        margin-bottom: 15px;
+        margin-top: 35px;
+    }
+
+    .imgOutros {
+        width: 300px;
+        margin-bottom: 10px;
+    }
+
+    .apresentacaoProdutos > h3 {
+        font-size: 22px;
+    }
+
+    /*contatos*/
+
+    .contatos, .rodape, .RedeSocial {
+        width: 112%;
+    }
+
+    .contatos > h2 {
+        font-size: 25px;
+    }
+
+    .contatos > h3 {
+        font-size: 15px;
+    }
+
+}
+
+@media screen and (min-width: 820px) and (max-width: 900px) {
+    /*icone da pagina*/
+    .icone {
+        width: 109.4%;
+        padding: 8px;
+    }
+
+    /*primeria imagem - apresentação*/
+    .imagemDeInicio {
+        width: 111.3%;
+        height: auto;
+        object-fit: cover;
+        object-position: bottom;
+        padding-bottom: 0.9em;;
+    }
+
+    /*area de oferta cliente*/
+    .paraCliente {
+        width: 100%;
+        margin-left: 45px;
+    }
+
+   /*inicio primeiro bloco de grid*/
+   .gridUM {
+        width: 90%;
+        display: grid;
+        grid-template-columns: 546px 230px;
+        grid-template-rows: 270px 270px;
+        justify-content: center;
+        align-content: center;
+        justify-items: center;
+        align-items: center;
+        margin: 35px 15px 5px 5px;
+        padding: 5px;
+    }
+
+    .imgGrid1 {
+        width: 380px;
+        border: #FFDF64 solid 2px;
+    }
+
+    /*inicio segundo bloco de grid*/
+    .gridDOIS {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        justify-items: center;
+        align-items: center;
+        margin-top: 60px;
+    }
+
+    .conjunto1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        justify-items: center;
+        align-items: center; 
+        padding-top: 10px;
+        border-radius: 12px;
+        margin-left: 85px;
+    }
+
+    .conjunto2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        justify-items: center;
+        align-items: center; 
+        padding-top: 10px;
+        border-radius: 12px;
+        margin-left: 80px;
+    }
+
+    .imgGrid2 {
+        width: 650px;
+    }
+
+    .imgGrid2-1 {
+        width: 550px;
+    }
+
+    .palavrasGrid2 > h4 {
+        font-size: 25px;
+    }
+
+    .palavrasGrid2 > p {
+        font-size: 20px;
+    }
+
+    .palavrasGrid2-1 > h4 {
+        font-size: 25px;
+    }
+
+    .palavrasGrid2-1 > p {
+        font-size: 20px;
+    }
+
+    /*titulo minimalismo*/
+    .homeEminimalist {
+        width: 100%;
+        margin-left: 40px;
+    }
+
+    .gridTRES {
+        width: 110%;
+        display: grid;
+        grid-template-columns: 460px 380px;
+        grid-template-rows: 290px 290px;
+        justify-content: center;
+        align-content: center;
+        justify-items: center;
+        align-items: center;
+        margin: 35px 15px 5px 5px;
+        padding: 2px;   
+    }
+
+    .imgGrid3 {
+        width: 400px;
     }
 
 
@@ -1553,10 +1731,10 @@ body {
         font-size: 22px;
     }
 
-     /*contatos*/
+    /*contatos*/
 
     .contatos, .rodape, .RedeSocial {
-        width: 112%;
+        width: 111.3%;
     }
 
     .contatos > h2 {
@@ -1566,6 +1744,6 @@ body {
     .contatos > h3 {
         font-size: 15px;
     }
-   
+
 
 }
